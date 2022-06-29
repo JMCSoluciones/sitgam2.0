@@ -5,6 +5,14 @@ block content
             .carousel-inner
                 .carousel-item.active
                     picture.carousel-item__img
+                        source(media="(min-width:1110px)" srcset="/images/slidePallets-1920x466.jpg")
+                        source(media="(min-width:768px)" srcset="/images/slidePallets-1028x466.jpg")
+                        img(src="/images/slidePallets-528x593.jpg" alt="Imgagen de pallets").d-block.w-100
+                    .slideContent
+                        .slideContent__box#slide1Content
+                            p MANIOBRAMOS  CON #[br] #[strong PRECISIÓN]  #[br] Air palets #[br]
+                .carousel-item
+                    picture.carousel-item__img
                         source(media="(min-width:1110px)" srcset="images/shead1.jpg")
                         source(media="(min-width:768px)" srcset="images/ti-1.jpg")
                         img(src="images/mi-1.jpg" alt="Imgagen de un montacargas").d-block.w-100
@@ -67,11 +75,11 @@ block content
                                 a.slide_link(href="pintura.html") Más Información#[span #[img(src="images/Iconos/arrow__rightcorange.svg")]]
 
             button(type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev").carousel-control-prev.hidden
-            span(aria-hidden="true").carousel-control-prev-icon.hidden
-            span.visually-hidden.hidden Previous
-            button(type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next").carousel-control-prev.hidden
-            span(aria-hidden="true").carousel-control-next-icon.hidden
-            span.visually-hidden.hidden Next
+                span(aria-hidden="true").carousel-control-prev-icon.hidden
+                span.visually-hidden.hidden Previous
+            button(type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next").carousel-control-next.hidden
+                span(aria-hidden="true").carousel-control-next-icon.hidden
+                span.visually-hidden.hidden Next
         section.contentSection
             .contentSection__triangle-left.top__triangle1
                 p #[strong 30] años #[br]de experiencia
