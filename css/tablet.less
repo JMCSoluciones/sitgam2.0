@@ -1,0 +1,570 @@
+@import "globals.less";
+@import "variables.less";
+
+.menu-top{
+    display: flex;
+    max-width: 1110px;
+    margin: 0 auto;
+    justify-content: space-between !important;
+}
+.content{
+    .contentSection__triangle-left,
+    .contentSection__triangle-right{
+        display: none;
+    }
+    .slideContent__box{
+        top: 100px;
+        &__sections{
+            justify-content: flex-start;
+            padding-left: 100px;
+            a{
+            justify-content: flex-start;
+
+            }
+        }
+    }
+    .contentSectionTablet{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        max-width: 600px;
+        margin: 60px auto;
+        color: @color-primary;
+        font-size: 5.5rem;
+    }
+    #contentSectionTablet__exp{
+        h2{
+            background-color: @color-secondary;
+            color: @color-white;
+            padding: 40px;
+            font-size: 6rem;
+        }
+        p{
+            line-height: 4.5rem;
+            border-bottom: 2px solid @color-secondary;
+            padding: 20px 0;
+            margin-left: 20px;
+        }
+    }
+    #contentSectionTablet__sol{
+        p{
+            strong{
+                border-top: 3px solid @color-secondary;
+            }
+        }
+    }
+    #contentSectionTablet__ef{
+        p{
+            strong{
+                border-top: 3px solid @color-secondary;
+            }
+        }
+    }
+    #contentSectionTablet__expert{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        p{
+            line-height: 5rem;
+            font-weight: @font-light;
+            strong{
+                font-weight: @font-bold;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: @color-white;
+            font-size: 2rem;
+            background-color: @color-secondary;
+            padding: 10px 30px;
+            font-weight: @font-light;
+            border-radius: 10px;
+        }
+    }
+    #contentSectionTablet__inst{
+        p{
+            line-height: 6rem;
+            border: 2px solid @color-secondary;
+            padding: 20px 40px;
+        }
+    }
+    .contentSection__article__txt{
+        background-color: rgba(34,34,34,.6);
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        margin: 10px 30px;
+        top: 70px;
+        p{
+            color: #ffffff;
+            font-size: 2rem;
+            margin: 40px 20px 2px 20px;
+            top: 70px;
+            border-bottom: 1px solid #fd641d;
+            width: 60%;
+            text-align: left;
+            font-weight: 600;
+           
+        }
+        a{
+            color: #ffffff !important;
+            background-color: #00476d;
+            font-size: 1.8rem;
+            text-decoration: none;
+            font-weight: 100;
+            padding: 5px 40px;
+            /* margin: 2px 20px 10px 20px; */
+            width: 220px;
+        }
+
+    }
+}
+.empresa{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .parrafo{
+        text-align: justify;
+        padding-left: 0;
+    }
+    &__content{
+        margin-left: 40px;
+    
+        
+    }
+    &__flag{
+        clip-path: none;
+        height: 50px;
+        width: 400px;
+        margin-left: 40px;
+
+
+    }
+    &__mision{
+        margin-left: 40px;
+
+    }
+    &__vision{
+        margin-left: 40px;
+
+    }
+    &__valores{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        align-items: flex-start;
+        ul{
+            margin-top: 40px;
+            margin-left: 20px;
+
+            
+        }
+        border-bottom: 2px solid @color-secondary;
+    }
+    
+}
+.maquinaria{
+    &__content{
+        &__traslados{
+            display: flex;
+            &-txt{  
+                #maquinaria-parrafo1{
+                    border-bottom: 3px solid @color-secondary !important;
+                    text-align: left !important;
+                    padding-left: 0 !important;
+                }
+                #maquinaria-parrafo2{
+                    border-bottom: none !important;
+                    text-align: left !important;
+                    padding: 0 0 0 0 !important;
+                    font-weight: @font-light;
+
+                }
+                p{
+                   
+                }
+                
+            }
+           
+            &-map{
+
+            }
+        }
+        &-embalaje{
+            &-txt{
+                top: 46px;
+            }
+            &-seguro{
+                p{
+                    max-width: 365px;
+                    text-align: center;
+                    line-height: 4.5rem;
+                }
+            }
+        }
+        
+        &-parrafo{
+            max-width: 700px;
+            font-size: 2.2rem;
+            margin: 20px auto;
+        }
+        &-maniobra{
+            display: flex;
+            flex-direction: row !important;
+            align-items: center !important;
+            justify-content: space-around;
+            &-precision{
+                p{
+                   max-width: 300px;
+    
+                }
+                ul{
+                    max-width: 300px;
+    
+                }
+    
+            }
+            &-personal{
+                margin: 40px;
+                width: 300px;
+                p{
+                    text-align: left !important;
+                    margin: 5%;
+                }
+            }
+        }
+        &-cimentacion{
+            p{
+                font-size: 2.5rem !important;
+            }
+        }
+        
+    }
+}
+.electricas{
+    &__especialistas{
+        p{
+            text-align: center;
+            font-size: 2.5rem;
+            margin: 40px;
+            strong{
+                font-size: 3.5rem;
+            }
+        }
+    }
+    &__integral{
+        display: flex;
+        flex-direction: row;
+        &__box{
+            width: 50%;
+            left: 0;
+            padding: 20px;
+            margin: 0;
+        }
+        &__orange{
+            right: 0;
+            top: 0;
+            margin: 5%;
+            width: 300px;
+            p:nth-child(2){
+                border-bottom: 2px solid @color-white;
+            }
+        }
+    }
+    &__continua{
+        margin: 50px 60px;
+        text-align: center;
+        h2{
+            text-align: center;
+            line-height: 5rem;
+        }
+
+    }
+    &__segura{
+        &__box{
+            left: 0;
+            h2{
+                padding-bottom: 5px;
+                border-bottom: 2px solid @color-secondary;
+            }
+        }
+    }
+    &__rapida{
+        padding: 60px 30px;
+        text-align: justify;
+        p{
+            font-size: 2.4rem;
+        }
+    }
+    &__asesoran{
+        &__box{
+            width: 40%;
+            left: 0;
+            margin: 0;
+            padding: 20px 0;
+            top: 20px;
+            p{
+                color: @color-secondary;
+                strong{
+                    color: @color-white;
+                }
+            }
+        }
+        &__blue{
+            width: 30%;
+            top: 0;
+            right: 10px;
+            margin: 0;
+            height: 90%;
+            border-radius: 0 0 15px 15px;
+            p{
+                border-bottom: 2px solid @color-secondary;
+                text-align: center;
+                padding: 20px 0;
+
+            }
+            h2{
+                text-align: center;
+                margin: 20px 5px;
+            }
+
+        }
+    }
+    #btn__contactenos-electricas{
+        margin-top: 40px;
+    }
+}
+.hidraulicas{
+    h1{
+        text-align: center;
+        margin: 30px 150px;
+        border-bottom: 2px solid @color-secondary;
+        padding-bottom: 30px;
+    }
+    .hidraulicas__icon{
+        width: 70px;
+    }
+    ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(7, auto); 
+        border-left: none; 
+        li{
+            margin: 5px;
+        }
+    }
+    picture{
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        p{  
+            position: absolute;
+            background-color: rgba(34,34,34,.9);
+            font-size: 2rem;
+            color: @color-white;
+            width: 40%;
+            padding: 40px;
+            margin: 60px 20px;
+        }
+    }
+}
+.paileria{
+    &__disenamos{
+        p{
+            text-align: center;
+            margin: 60px 120px;
+            font-size: 3.5rem;
+        }
+    }
+    &__racks{
+        &-box{
+            width: 40%;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            p{
+                font-size: 3rem;
+            }
+        }
+    }
+    &__metal{
+        p{
+            text-align: justify;
+            line-height: 2.8rem;
+            margin: 80px 60px;
+        }
+    }
+    &__expertos{
+        margin: 60px 70px;
+        display: flex;
+        align-items: center;
+        h1{
+            text-align: right;
+        }
+    }
+}
+.pintura{
+    &__proteccion{
+        &__box{
+            width: 40%;
+            left: 50px;
+            h2{
+                line-height: 3rem;
+            }
+            ul{
+                li{
+                    p{
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+    &__seguridad{
+        display: flex;
+        margin: 90px 80px;
+        align-items: center;
+        justify-content: center;
+        h2{
+            border-bottom: none;
+            text-align: right;
+            width: 350px;
+            font-size: 4rem;
+            padding-right: 20px;
+        }
+        p{
+            width: 45%;
+            margin: 0 15px;
+            border-left: 3px solid @color-secondary;
+            padding-left: 20px;
+
+        }
+    }
+    &__limites{
+        &__box{
+            width: 40%;
+            height: 100%;
+            left: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+    }
+    &__objetivos-s{
+        padding: 60px 40px;
+        p{
+            text-align: justify;
+            font-size: 1.8rem;
+        }
+    }
+    &__pasos{
+        align-items: flex-start;
+        
+       &__box{
+           width: 40%;
+           margin-left: 30px;
+           p{
+               strong{
+                   color: @color-secondary;
+               }
+           }
+       } 
+    }
+}
+.contacto{
+    .section__header{
+        &-content{
+            p{
+                font-weight: @font-semibold;
+                font-size: 4rem;
+            }
+        }
+    }
+    &__txt{
+        text-align: center;
+        margin: 80px;
+        p{
+        }
+    }
+    &__box{
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 20px 0 60px 0;
+    }
+}
+footer{
+   .footer__header{
+       &__box{
+            max-width: 1110px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-areas: unset;
+            grid-template-areas:
+                "phone cellphone email";
+            font-size: 1.4rem;
+            line-height: 2rem;
+            font-family: 'Inter', sans-serif;
+            padding: 20px 10px;
+            &__phone{
+                grid-area: phone;
+                justify-content: flex-start;
+            }
+            &__cellphone{
+                grid-area: cellphone;
+                justify-content: flex-start;
+            }
+            &__email{
+                grid-area: email;
+                justify-content: flex-start;
+    
+            }
+       }
+    }
+    .footer__box{
+        background-color: @color-text;
+        &__body{
+            max-width: 1110px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas: 
+            "enlaces direccion facebook"
+            "enlaces horarios logo";
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            &-logo{
+               grid-area: logo;
+               width: 150px;
+
+            }
+            &-links{
+                grid-area: enlaces;
+                h2{
+                    text-align: left;
+                }
+                li{
+                    margin: 0;
+                    text-align: left;
+                }
+            }
+            &-shedule{
+                grid-area: horarios;
+            }
+            &-socialmedia{
+                grid-area: facebook;
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+@import "globals.less";
+@import "variables.less";
+.contacto__form{
+    font-family: @font-family !important;
+    display: flex;
+    .form{
+        background-color: @color-primary;
+        width: 375px;
+        max-width: 400px;
+        margin: auto;
+        border-radius: 1em;
+        padding: 3.5em 1.5em;
+        &__title{
+            text-align: center;
+            font-size: 1.9rem;
+            margin-bottom: .4em;
+            color: @color-white;
+        }
+        &__container{
+            width: 100%;
+            display: grid;
+            gap: 1em;
+            grid-auto-columns: 100%;
+           &__input{
+               font-family: inherit;
+               font-size: 1rem;
+               padding: .8em 1em;
+               outline: none;
+               border: none;
+               border: 1px solid #bbb0b0;
+               border-radius: 0.4em;
+           }
+           &__input--message{
+               resize: none;
+               padding: 1.8em 1em;
+               margin-bottom: .5em;
+           }
+           &__cta{
+               font-family: inherit;
+               background-color: @color-secondary;
+               color: @color-white;
+               border: none;
+               font-weight: @font-light;
+               padding: .7em 0;
+               border-radius: .4em;
+               cursor: pointer;
+               font-weight: @font-semibold;
+
+           }
+        }
+    }
+
+}
+
+@media (max-width: 450px){
+    .contacto__form{
+        .form{
+            padding: 3.5em 1em;
+            margin: 40px auto;
+        }
+    }
+    
+}

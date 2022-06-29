@@ -1,0 +1,32 @@
+extend ../components/template.pug
+block content
+    .hidraulicas
+        .section__header
+            .section__header-content
+                picture
+                    source(media="(min-width:1110px)" srcset="/images/dhidraulicas.jpg")
+                    source(media="(min-width:768px)" srcset="/images/thead-hidraulicas.jpg")
+                    img(src="/images/mhead-hidraulicas.jpg", alt="Tuberias")
+                p ACOMETIDAS #[br] #[strong HIDRÁULICAS]
+        h1 Nos encargamos de la #[strong instalación de tuberías.]
+        img(src="/images/Iconos/arrow__down-corange.svg").hidraulicas__icon
+        ul 
+            li: p Tinacos
+            li: p Tanques elevados
+            li: p Cisternas 
+            li: p Tuberías de succión 
+            li: p Tuberías de descarga 
+            li: p Tuberías de distribución 
+            li: p Válvulas de control
+            li: p Válvulas de servicio
+            li: p Bombas 
+            li: p Equipos de bombeo
+            li: p Equipos de suavización
+            li: p Generadores de agua caliente 
+            li: p Generadores de vapor
+        picture.imgBombas
+            source(media="(min-width:768px)" srcset="/images/thidraulicas2.jpg")
+            img(src="/images/mhidraulicas1.jpg", alt="Técnico revisando bombas").img-fluid
+            p Instalamos lo necesario para proporcionar #[strong agua fría, caliente, vapor] en casos específicos a #[strong muebles sanitarios y otros servicios especiales] de una planta industrial.
+    .btn-contactenos
+            a(href="contacto.html") Contáctenos  

@@ -1,0 +1,47 @@
+extend ../components/template.pug
+block content
+    .electricas
+        .section__header
+            .section__header-content
+                picture
+                    source(media="(min-width:1110px)" srcset="/images/dheadelectricas.jpg")
+                    source(media="(min-width:768px)" srcset="/images/thead-electricas.jpg")
+                    img(src="/images/mhead-electricas.jpg", alt="Ingeniero con casco").img-fluid
+                p ACOMETIDAS #[br] #[strong ELÉCTRICAS]
+        .electricas__especialistas 
+            p #[strong Somos especialistas] #[br] en todo tipo de instalaciones eléctricas.
+        .electricas__integral
+            picture
+                source(media="(min-width:768px)" srcset="/images/tablet-electricas2.jpg")
+                img(src="/images/melectricas1.jpg", alt="").img-fluid
+            .electricas__integral__box 
+                p Ofrecemos un #[strong servicio integral] de instalación y mantenimiento
+            .electricas__integral__orange
+                h2 [INSTALACIONES]
+                p Subterráneas
+                p Aéreas
+
+        .electricas__continua 
+            h2 #[strong Energia Continua] #[br]en tu empresa
+            p Nuestro personal cuenta con DC-3 actualizado año tras año, utilizando todo el EPP que la actividad requiere y que nos permite brindarte instalaciones de acometidas de 110 volts, 220 volts bifásica y trifásica, 480 volts trifásica, así como cualquier otro servicio eléctrico que satisfaga tus necesidades industriales. Contamos con plataformas propias para cualquier trabajo aéreo.
+        .electricas__segura
+            picture
+                source(media="(min-width:768px)" srcset="/images/ti-4.jpg")
+                img(src="/images/melectricas3.jpg", alt="").img-fluid
+            .electricas__segura__box    
+                h2 ENERGIA SEGURA
+                p A USUARIOS FINALES
+        .electricas__rapida 
+            //- p Una acometida eléctrica es un elemento necesario para que la energía eléctrica llegue hasta los usuarios finales, por lo que es realmente importante #[strong realizar correctamente su implantación a través de nuestros profesionales de forma segura, rápida y siempre al mejor precio.]
+        .electricas__asesoran
+            picture
+                source(media="(min-width:768px)" srcset="/images/telectricas3.jpg")
+                img(src="/images/melectricas2.jpg", alt="").img-fluid
+            .electricas__asesoran__box 
+                p NUESTROS EXPERTOS #[br] #[strong TE ASESORAN]
+            .electricas__asesoran__blue
+                p Deja que nuestro equipo de expertos te brinde asesoría sobre este servicio. 
+                h2 Nos adaptamos a tus necesidades.
+                
+        .btn-contactenos#btn__contactenos-electricas
+            a(href="contacto.html") Contáctenos

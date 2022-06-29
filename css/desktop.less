@@ -1,0 +1,434 @@
+@import "globals.less";
+@import "variables.less";
+.menu-top{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+}
+.content{
+   .slideContent{
+       &__box{
+           width: 400px;
+           height: 100%;
+           top: 0;
+           margin-left: 200px;
+           left: 0;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           p{
+               font-size: 4.6rem;
+               line-height: 6rem !important;
+           }
+           &__sections{
+               padding-left: 0;
+           }
+       }
+
+       
+   }
+   .contentSection{
+          
+    &__article{
+         max-width: 1110px;
+         margin: 30px auto;
+         &__txt{
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             padding: 40px;
+             p{
+                 width: 90%;
+             }
+             
+         }
+    }
+    &Tablet{
+        text-align: center;
+        text-align: center;
+        justify-content: center;
+    }
+    }
+
+}
+.empresa{
+    .section__header{
+        &-content{
+            p{
+                width: 30%;
+                margin-left: 60px;
+                font-size: 6rem;
+                line-height: 9rem;
+                padding-top: 22px;
+                strong{
+                    font-size: 8rem;
+                    border-top: 5px solid @color-secondary;
+                    padding-top: 0;
+                }
+            }
+           
+        }
+    }
+    &__content{
+        margin: 40px auto;
+       p{
+           max-width: 1110px;
+           font-size: 3rem !important;
+           text-align: justify;
+       }
+    }
+    &__flag{
+        margin: 40px auto;
+        text-align: left;
+        width: 1110px;
+    }
+    &__mision{
+        margin: 40px auto;
+        p{
+            max-width: 1110px;
+            font-size: 2.5rem !important;
+            text-align: justify;
+
+        }
+
+
+    }
+    &__vision{
+        margin: 40px auto;
+        p{
+            max-width: 1110px;
+            font-size: 2.5rem !important;
+            text-align: justify;
+
+        }
+
+    }
+    &__valores{
+        margin: 20px auto;
+        width: 1110px;
+        p{
+            max-width: 1110px;
+            font-size: 2.5rem !important;
+            text-align: justify;
+
+        }
+
+    }
+}
+.maquinaria{
+    &__content{
+        max-width: 1110px;
+        margin: 0 auto;
+        &__traslados{
+            display: flex;
+            align-items: center;
+            &-map{
+                p{
+                    font-size: 6rem !important;
+                    line-height: 6rem;
+                    border: 2px solid @color-text;
+                    padding: 20px;
+                }
+
+            }
+            
+        }
+        &-embalaje{
+            picture{
+                img{
+                    border-radius: 40px 0 40px 0;
+                }
+            }
+            &-txt{
+                width: 1110px !important;
+                top: 93px;
+            }
+        }
+        &-stuberia{
+            picture{
+                img{
+                    border-radius: 40px 0 40px 0;
+                }
+            }
+            &-box{
+                width: 1110px !important;
+            }
+        }
+        &-parrafo{
+            p{
+                text-align: justify;
+            }
+        }
+        &-cimentacion{
+            h2{
+                margin: 40px 0;
+                padding: 30px 0 !important;
+                text-align: center;
+
+
+            }
+            p{
+                text-align: justify;
+            }
+        }
+    }
+}
+.electricas{
+   &__especialistas{
+
+   } 
+   &__integral{
+       margin: 0 auto;
+       max-width: 1110px;
+       display: flex;
+       align-items: center;
+       img{
+           border-radius: 40px 0 40px 0;
+       }
+       &__box{
+            display: flex;
+            align-items: center;
+            left: 143px;
+       }
+       &__orange{
+           top: 100px;
+           right: 100px;
+       }
+   }
+   &__continua{
+       max-width: 1110px;
+       margin: 80px auto;
+   }
+   &__segura{
+        margin: 0 auto;
+        max-width: 1110px;
+        display: flex;
+        align-items: center;
+        img{
+           border-radius: 40px 0 40px 0;
+
+        }
+        &__box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            left: 143px;
+            width: 500px;
+        }
+   }
+   &__rapida{
+       max-width: 1110px;
+       margin: 40px auto;
+   }
+   &__asesoran{
+        margin: 0 auto;
+        max-width: 1110px;
+        display: flex;
+        align-items: center;
+        img{
+            border-radius: 40px 0 40px 0;
+          
+        }
+        &__box{
+            top: 100px;
+            left: 50px;
+        }
+        &__blue{
+            right: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+   }
+}
+.hidraulicas{
+    h1{
+        max-width: 1110px;
+        margin: 40px auto;
+    }
+    ul{
+        max-width: 600px;
+        margin: 40px auto;
+        li{
+            p{
+                text-align: left;
+
+            }
+        }
+    }
+    .imgBombas{
+        max-width: 1110px;
+        margin: 40px auto;
+        img{
+           border-radius: 40px 0 40px 0;
+        }
+    }
+   
+}
+.paileria{
+    &__disenamos{
+        max-width: 800px;
+        margin: 60px auto;
+    }
+    &__racks{
+        max-width: 1110px;
+        margin: 20px auto;
+        img{
+            border-radius: 40px 0 40px 0;
+        }
+        &-box{
+            left: 80px;
+            p{
+                max-width: 320px;
+                font-size: 4rem;
+            }
+        }
+    }
+    &__metal{
+        max-width: 1110px;
+        margin: 30px auto;
+        p{
+            margin: 80px 0;
+        }
+    }
+    &__expertos{
+        max-width: 1110px;
+        margin: 40px auto;
+        justify-content: center;
+        h1{
+            max-width: 200px;
+            text-align: left;
+        }
+    }
+}
+.pintura{
+    &__proteccion{
+        max-width: 1110px;
+        margin: 0 auto;
+        img{
+            border-radius: 40px 0 40px 0;
+        }
+        &__box{
+            background-color: rgba(34,34,34,.8);
+        }
+    }
+    &__seguridad{
+        margin: 90px auto;
+        max-width: 600px;
+    }
+    &__limites{
+        margin: 40px auto;
+        max-width: 1110px;
+        img{
+            border-radius: 40px 0 40px 0;
+        }
+        &__box{
+            display: flex;
+            justify-content: center;
+            p{
+                max-width: 200px;
+                font-size: 3rem;
+                strong{
+                    font-size: 4rem;
+                }
+            }
+        }
+    }
+    &__objetivos-s{
+        max-width: 1110px;
+        margin: 40px auto;
+        padding: 60px 0;
+        p{
+            margin: 20px 0;
+        }
+    }
+    &__pasos{
+        max-width: 1110px;
+        margin: 40px auto;
+        img{
+            border-radius: 40px 0 40px 0;
+
+        }
+    }
+}
+.contacto{
+    &__txt{
+        margin: 80px auto;
+        max-width: 1110px;
+    }
+    &__box{
+        display: flex !important;
+        max-width: 1110px;
+        margin: 40px auto;
+    }
+}
+.privacidad{
+    &__box{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas: 
+        "box1 box1"
+        "box2 box3"
+        "box4 box5"
+        "box6 box6";
+        max-width: 1110px;
+        margin: 40px auto;
+        gap: 20px;
+        &1{
+            grid-area: box1;
+        }
+        &2{
+            grid-area: box2;
+        }
+        &3{
+            grid-area: box3;
+        }
+        &4{
+            grid-area: box4;
+        }
+        &5{
+            grid-area: box5;
+        }
+        &6{
+            grid-area: box6;
+        }
+    }
+}
+footer{
+    .footer__box{
+        background-color: @color-text;
+        &__body{
+             max-width: 1300px;
+             margin: 0 auto;
+             display: grid;
+             grid-template-columns: repeat(5, auto);
+             grid-template-rows: 1fr;
+             grid-template-areas: 
+             "enlaces direccion horarios logo facebook";
+            
+            &-logo{
+                grid-area: logo;
+                width: 150px;
+ 
+             }
+            &-links{
+                 grid-area: enlaces;
+                 h2{
+                     text-align: left;
+                 }
+                 li{
+                     margin: 0;
+                     text-align: left;
+                 }
+             }
+            &-shedule{
+                 grid-area: horarios;
+             }
+            &-socialmedia{
+                 grid-area: facebook;  
+             }
+         }
+     }
+}

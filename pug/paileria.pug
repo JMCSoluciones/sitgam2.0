@@ -1,0 +1,48 @@
+extend ../components/template.pug
+block content
+    .paileria
+        .section__header
+            .section__header-content
+                picture
+                    source(media="(min-width:1110px)" srcset="/images/dhead-paileria.jpg")
+                    source(media="(min-width:768px)" srcset="/images/thead-paileria.jpg")
+                    img(src="/images/mhead-paileria.jpg", alt="Ingeniero con casco").img-fluid
+                p SERVICIOS DE #[br] #[strong PAILERIA]
+        .paileria__disenamos
+            p Diseñamos y construimos las#[strong  estructuras que necesitas.]
+        .paileria__racks
+            picture
+                source(media="(min-width:768px)" srcset="/images/tpaileria.jpg")
+                img(src="/images/mpaileria2.jpg").img-fluid
+            .paileria__racks-box 
+                p Ofrecemos #[strong soluciones viables] para el proceso productivo de cualquier empresa.
+        .paileria__metal
+            p Esta es una rama de la #[strong industria metal-mecánica], la cual a través de cálculos matemáticos, físicos y químicos se crean #[strong estructuras que satisfagan las necesidades y requerimientos del cliente] para dar soluciones viables a su proceso productivo. La pailería se auxilia de la soldadura para unir elementos por medio de la fusión de materiales, por ejemplo, unir perfiles tubulares rectangulares (ptr) para crear la estructura de un rack o de un marco. 
+        .paileria__expertos 
+            h1 SOMOS EXPERTOS 
+            ul
+                li
+                    img(src="/images/Iconos/arrow__rightcblue.svg", alt="")
+                    p Soportes
+                li
+                    img(src="/images/Iconos/arrow__rightcblue.svg", alt="")
+                    p Mesas de trabajo
+                li
+                    img(src="/images/Iconos/arrow__rightcblue.svg", alt="")
+                    p Protecciones para restringir áreas de trabajo
+                li
+                    img(src="/images/Iconos/arrow__rightcblue.svg", alt="")
+                    p Canastillas para el traslado de piezas
+                li
+                    img(src="/images/Iconos/arrow__rightcblue.svg", alt="")
+                    p Racks
+                li
+                    img(src="/images/Iconos/arrow__rightcblue.svg", alt="")
+                    p Plataformas
+                li
+                    img(src="/images/Iconos/arrow__rightcblue.svg", alt="")
+                    p Barandales
+        
+        
+        .btn-contactenos
+            a(href="contacto.html") Contáctenos 

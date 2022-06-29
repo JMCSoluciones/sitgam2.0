@@ -1,0 +1,80 @@
+extend ../components/template.pug
+block content
+    .maquinaria
+        .section__header
+            .section__header-content
+                picture
+                    source(media="(min-width:1400px)" srcset="/images/dhead-maquinaria.jpg")
+                    source(media="(min-width:768px)" srcset="/images/thead-maquinaria.jpg")
+                    img(src="/images/mhead-maquinaria.jpg", alt="Ingeniero con casco")
+                p MOVIMIENTO DE #[br] #[strong MAQUINARIA]
+        .maquinaria__content
+            .maquinaria__content__traslados
+                .maquinaria__content__traslados-txt
+                    p#maquinaria-parrafo1 Nos encargamos de #[strong toda la lógistica.]
+                    p#maquinaria-parrafo2 #[strong Descarga y carga] de maquinaria y de todo el equipo.
+                .maquinaria__content__traslados-map
+                    img(src="/images/mapa.png", alt="mapa de la Republica Mexicana").img-fluid
+                    //- p #[strong LOS#[br] MÁS FUERTES] #[br] DE TODO EL BAJÍO
+            .maquinaria__content-embalaje
+                picture 
+                    source(media="(min-width:768px)" srcset="/images/tmaquinaria1.jpg")
+                    img(src="/images/mmaquinaria2.jpg", alt="").img-fluid
+                .maquinaria__content-embalaje-txt
+                    p#maquinaria-parrafo3 SERVICIOS DE #[br] #[strong EMBALAJE]
+                    p#maquinaria-parrafo4 EQUIPOS Y MAQUINARIA 
+                .maquinaria__content-embalaje-seguro 
+                    img(src="/images/Iconos/arrow__down-corange.svg", alt="Ícono de flecha")
+                    p Para un transporte #[strong correcto y seguro]
+            .maquinaria__content-stuberia
+                picture 
+                    source(media="(min-width:768px)" srcset="/images/tmaquinaria2.jpg")
+                    img(src="/images/mmaquinaria3.jpg" alt="").img-fluid
+                .maquinaria__content-stuberia-box
+                    p#stuberia-servicios SERVICIOS 
+                    .listServicios 
+                        ul
+                            li
+                                p INSTALACIÓN
+                            li
+                                p REMOCIÓN
+                            li
+                                p MODIFICACIÓN 
+                    p#stuberia-tuberia TUBERÍA
+                    .listTuberia 
+                        ul
+                            li
+                                p ELÉCTRICA
+                            li
+                                p HIDRÁULICA
+                            li
+                                p NEUMÁTICA 
+            .maquinaria__content-parrafo
+                //- p Instalación, remoción y modificación de tubería eléctrica, hidráulica y neumática, de diferentes materiales, calibres y diámetros.
+            .maquinaria__content-maniobra
+                .maquinaria__content-maniobra-precision
+                    p Servicio de Movimiento interno y capacidad de #[strong maniobra de precisión] para puesta en punto de maquinaria y equipo.
+                    ul 
+                        li 
+                            img(src="/images/Iconos/arrow__right-white.svg", alt="")
+                            p AIR PALETS
+                        li 
+                            img(src="/images/Iconos/arrow__right-white.svg", alt="")
+                            p MONTACARGAS
+                        li 
+                            img(src="/images/Iconos/arrow__right-white.svg", alt="")
+                            p GRUAS HIABB
+                        li 
+                            img(src="/images/Iconos/arrow__right-white.svg", alt="")
+                            p TORTUGAS DE NYLAMIND
+                .maquinaria__content-maniobra-personal 
+                    p Contamos con personal #[strong altamente capacitado] para su operación.
+            //- .maquinaria__content-cimentacion 
+            //-     h2 Servicio de Cimentación 
+            //-     p #[strong Contamos con Servicio de cimentación] en caso de que alguna máquina lo requiera en la nueva ubicación que se coloque.
+            
+    .btn-contactenos
+            a(href="contacto.html") Contáctenos   
+            
+
+

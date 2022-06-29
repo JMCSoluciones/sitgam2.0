@@ -1,0 +1,36 @@
+extend ../components/template.pug
+block content
+    .empresa
+        .section__header
+            .section__header-content
+                picture
+                    source(media="(min-width:1110px)" srcset="/images/dhead-empresa.jpg")
+                    source(media="(min-width:768px)" srcset="/images/thead-empresa.jpg")
+                    img(src="/images/mhead-empresa.jpg", alt="Ingeniero con casco").img-fluid
+                p NUESTRA #[br] #[strong EMPRESA]
+        .empresa__content
+            p.parrafo En SITGAM Corporation #[strong nos especializamos en servicios industriales], ofreciendo #[strong soluciones eficaces]  y profesionales a los mejores precios que nos han consolidado en la industria en estos #[strong 30 años de servicio ininterrumpido.]
+        .empresa__flag
+            img(src="/images/isotipo.svg", alt="Isotipo de Sitgam")
+            p MISIÓN
+        .empresa__mision 
+            p.parrafo Brindar soluciones de instalación y mantenimiento industrial adaptándonos a las necesidades de nuestros clientes #[strong con excelencia y un equipo humano]  comprometido para #[strong dar los mejores resultados]
+        .empresa__flag
+            img(src="/images/isotipo.svg", alt="Isotipo de Sitgam")
+            p VISIÓN
+        .empresa__vision 
+            p.parrafo Ser una de las principales empresas en servicios industriales en el área de instalación y mantenimiento en la zona del Bajío para el 2023 #[strong garantizando calidad, seguridad, protección al medio ambiente, eficiencia y precios competitivos.]
+        .empresa__flag
+            img(src="/images/isotipo.svg", alt="Isotipo de Sitgam")
+            p VALORES
+        .empresa__valores
+            ul 
+                each valor in valores 
+                    li 
+                        img(src="/images/Iconos/check.svg", alt="")
+                        p #{valor}
+
+        .btn-contactenos
+            a(href="contacto.html") Contáctenos 
+
+

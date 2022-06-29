@@ -1,0 +1,55 @@
+extend ../components/template.pug
+block content
+    .pintura
+        .section__header
+            .section__header-content
+                picture
+                    source(media="(min-width:1110px)" srcset="/images/dhead-pintura.jpg")
+                    source(media="(min-width:768px)" srcset="/images/thead-pintura.jpg")
+                    img(src="/images/mhead-pintura.jpg", alt="Ingeniero con casco")
+                p SERVICIOS DE #[br] #[strong PINTURA] #[br] #[span INDUSTRIAL]
+        .pintura__objetivosh
+            p Nuestros #[span #[br] Objetivos] 
+            img(src="/images/Iconos/arrow__down-corange.svg", alt="")
+            .pintura__objetivosh__box
+                p PROTECCIÓN 
+                span 
+                p ESTÉTICA
+        .pintura__proteccion
+            picture
+                source(media="(min-width:768px)" srcset="/images/tpintura.jpg")
+                img(src="/images/mpintura2.jpg", alt="técnico pintando").img-fluid
+            .pintura__proteccion__box
+                h2 PROTECCIÓN #[br] #[span CONTRA]
+                ul
+                    li: p Impactos
+                    li: p Corrosión 
+                    li: p Clima
+        .pintura__seguridad 
+            h2 La seguridad es lo primero
+            p #[strong Protege los diferentes tipos de estructuras] de las agresiones a los que pueden ser sometidos.
+        .pintura__objetivos-s
+            p Nuestro servicio de pintura industrial tiene #[strong dos objetivos principales:] Por un lado, #[strong proteger los diferentes soportes] de las agresiones a las que puedan ser sometidos, tanto físicas (impactos) como químicas y ambientales (corrosión, climatología, etc), y la otra es encaminada a la #[strong parte estética o funcional dentro de la empresa] como rótulos, límites de áreas seguras dentro de planta, pasos peatonales y cualquier otra necesidad que tenga el cliente en la que involucre color.
+        .pintura__limites
+            picture
+                source(media="(min-width:768px)" srcset="/images/tpintura2.jpg")
+                img(src="/images/mi-6.jpg" alt="").img-fluid
+            .pintura__limites__box
+                p APLICACIÓN DE #[strong ]
+                h2 PISO #[br]AUTONIVELANTE#[br]EPÓXICO
+        .pintura__objetivos-s
+            p Lo primero que resalta en una empresa de clase mundial es precisamente el piso reluciente, con brillo y en excelentes condiciones. Todas estas ventajas las brinda la aplicación o instalación de un piso epóxico/autonivelante, que frecuentemente tiene uso industrial o comercial brindando durabilidad y resistencia al tráfico pesado y continuo.  Está conformado por una base de concreto y recubierto de resinas epóxicas, que lo vuelven de alto rendimiento. #[br]#[br]Nuestro personal está capacitado para dejar el área con el piso epóxico adecuado a tus necesidades que dará una apariencia espaciosa, llamativa y con alto brillo que los hace parecer más iluminados. Todas estas ventajas, hacen que los pisos epóxicos/autonivelantes sean la mejor opción. 
+
+        
+        .pintura__pasos
+            picture
+                source(media="(min-width:768px)" srcset="/images/tpintura3.jpg")
+                img(src="/images/mpintura3.jpg" alt="").img-fluid
+            .pintura__pasos__box
+                p Pasos #[br] #[strong Peatonales] 
+        .btn-contactenos
+            a(href="contacto.html") Contáctenos  
+        
+
+
+

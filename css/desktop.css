@@ -1,0 +1,461 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+}
+.hidden {
+  display: none !important;
+}
+.menu-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1110px;
+}
+.content .slideContent__box {
+  width: 400px;
+  height: 100%;
+  top: 0;
+  margin-left: 200px;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.content .slideContent__box p {
+  font-size: 4.6rem;
+  line-height: 6rem !important;
+}
+.content .slideContent__box__sections {
+  padding-left: 0;
+}
+.content .contentSection__article {
+  max-width: 1110px;
+  margin: 30px auto;
+}
+.content .contentSection__article__txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px;
+}
+.content .contentSection__article__txt p {
+  width: 90%;
+}
+.content .contentSectionTablet {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.empresa .section__header-content p {
+  width: 30%;
+  margin-left: 60px;
+  font-size: 6rem;
+  line-height: 9rem;
+  padding-top: 22px;
+}
+.empresa .section__header-content p strong {
+  font-size: 8rem;
+  border-top: 5px solid #fd641d;
+  padding-top: 0;
+}
+.empresa__content {
+  margin: 40px auto;
+}
+.empresa__content p {
+  max-width: 1110px;
+  font-size: 3rem !important;
+  text-align: justify;
+}
+.empresa__flag {
+  margin: 40px auto;
+  text-align: left;
+  width: 1110px;
+}
+.empresa__mision {
+  margin: 40px auto;
+}
+.empresa__mision p {
+  max-width: 1110px;
+  font-size: 2.5rem !important;
+  text-align: justify;
+}
+.empresa__vision {
+  margin: 40px auto;
+}
+.empresa__vision p {
+  max-width: 1110px;
+  font-size: 2.5rem !important;
+  text-align: justify;
+}
+.empresa__valores {
+  margin: 20px auto;
+  width: 1110px;
+}
+.empresa__valores p {
+  max-width: 1110px;
+  font-size: 2.5rem !important;
+  text-align: justify;
+}
+.maquinaria__content {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.maquinaria__content__traslados {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.maquinaria__content__traslados-map p {
+  font-size: 6rem !important;
+  line-height: 6rem;
+  border: 2px solid #4F4B49;
+  padding: 20px;
+}
+.maquinaria__content-embalaje picture img {
+  border-radius: 40px 0 40px 0;
+}
+.maquinaria__content-embalaje-txt {
+  width: 1110px !important;
+  top: 93px;
+}
+.maquinaria__content-stuberia picture img {
+  border-radius: 40px 0 40px 0;
+}
+.maquinaria__content-stuberia-box {
+  width: 1110px !important;
+}
+.maquinaria__content-parrafo p {
+  text-align: justify;
+}
+.maquinaria__content-cimentacion h2 {
+  margin: 40px 0;
+  padding: 30px 0 !important;
+  text-align: center;
+}
+.maquinaria__content-cimentacion p {
+  text-align: justify;
+}
+.electricas__integral {
+  margin: 0 auto;
+  max-width: 1110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.electricas__integral img {
+  border-radius: 40px 0 40px 0;
+}
+.electricas__integral__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 143px;
+}
+.electricas__integral__orange {
+  top: 100px;
+  right: 100px;
+}
+.electricas__continua {
+  max-width: 1110px;
+  margin: 80px auto;
+}
+.electricas__segura {
+  margin: 0 auto;
+  max-width: 1110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.electricas__segura img {
+  border-radius: 40px 0 40px 0;
+}
+.electricas__segura__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 143px;
+  width: 500px;
+}
+.electricas__rapida {
+  max-width: 1110px;
+  margin: 40px auto;
+}
+.electricas__asesoran {
+  margin: 0 auto;
+  max-width: 1110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.electricas__asesoran img {
+  border-radius: 40px 0 40px 0;
+}
+.electricas__asesoran__box {
+  top: 100px;
+  left: 50px;
+}
+.electricas__asesoran__blue {
+  right: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.hidraulicas h1 {
+  max-width: 1110px;
+  margin: 40px auto;
+}
+.hidraulicas ul {
+  max-width: 600px;
+  margin: 40px auto;
+}
+.hidraulicas ul li p {
+  text-align: left;
+}
+.hidraulicas .imgBombas {
+  max-width: 1110px;
+  margin: 40px auto;
+}
+.hidraulicas .imgBombas img {
+  border-radius: 40px 0 40px 0;
+}
+.paileria__disenamos {
+  max-width: 800px;
+  margin: 60px auto;
+}
+.paileria__racks {
+  max-width: 1110px;
+  margin: 20px auto;
+}
+.paileria__racks img {
+  border-radius: 40px 0 40px 0;
+}
+.paileria__racks-box {
+  left: 80px;
+}
+.paileria__racks-box p {
+  max-width: 320px;
+  font-size: 4rem;
+}
+.paileria__metal {
+  max-width: 1110px;
+  margin: 30px auto;
+}
+.paileria__metal p {
+  margin: 80px 0;
+}
+.paileria__expertos {
+  max-width: 1110px;
+  margin: 40px auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.paileria__expertos h1 {
+  max-width: 200px;
+  text-align: left;
+}
+.pintura__proteccion {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.pintura__proteccion img {
+  border-radius: 40px 0 40px 0;
+}
+.pintura__proteccion__box {
+  background-color: rgba(34, 34, 34, 0.8);
+}
+.pintura__seguridad {
+  margin: 90px auto;
+  max-width: 600px;
+}
+.pintura__limites {
+  margin: 40px auto;
+  max-width: 1110px;
+}
+.pintura__limites img {
+  border-radius: 40px 0 40px 0;
+}
+.pintura__limites__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.pintura__limites__box p {
+  max-width: 200px;
+  font-size: 3rem;
+}
+.pintura__limites__box p strong {
+  font-size: 4rem;
+}
+.pintura__objetivos-s {
+  max-width: 1110px;
+  margin: 40px auto;
+  padding: 60px 0;
+}
+.pintura__objetivos-s p {
+  margin: 20px 0;
+}
+.pintura__pasos {
+  max-width: 1110px;
+  margin: 40px auto;
+}
+.pintura__pasos img {
+  border-radius: 40px 0 40px 0;
+}
+.contacto__txt {
+  margin: 80px auto;
+  max-width: 1110px;
+}
+.contacto__box {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  max-width: 1110px;
+  margin: 40px auto;
+}
+.privacidad__box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 20px 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto 20px auto 20px auto 20px auto;
+  grid-template-rows: repeat(4, auto);
+      grid-template-areas: "box1 box1" "box2 box3" "box4 box5" "box6 box6";
+  max-width: 1110px;
+  margin: 40px auto;
+  gap: 20px;
+}
+.privacidad__box1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: box1;
+}
+.privacidad__box2 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: box2;
+}
+.privacidad__box3 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: box3;
+}
+.privacidad__box4 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: box4;
+}
+.privacidad__box5 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+  grid-area: box5;
+}
+.privacidad__box6 {
+  -ms-grid-row: 7;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: box6;
+}
+footer .footer__box {
+  background-color: #4F4B49;
+}
+footer .footer__box__body {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[5];
+  grid-template-columns: repeat(5, auto);
+  -ms-grid-rows: 1fr;
+  grid-template-rows: 1fr;
+      grid-template-areas: "enlaces direccion horarios logo facebook";
+}
+footer .footer__box__body-logo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: logo;
+  width: 150px;
+}
+footer .footer__box__body-links {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: enlaces;
+}
+footer .footer__box__body-links h2 {
+  text-align: left;
+}
+footer .footer__box__body-links li {
+  margin: 0;
+  text-align: left;
+}
+footer .footer__box__body-shedule {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: horarios;
+}
+footer .footer__box__body-socialmedia {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+  grid-area: facebook;
+}

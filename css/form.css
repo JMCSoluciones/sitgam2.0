@@ -1,0 +1,73 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+}
+.hidden {
+  display: none !important;
+}
+.contacto__form {
+  font-family: 'Raleway', sans-serif !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contacto__form .form {
+  background-color: #00476d;
+  width: 375px;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 1em;
+  padding: 3.5em 1.5em;
+}
+.contacto__form .form__title {
+  text-align: center;
+  font-size: 1.9rem;
+  margin-bottom: 0.4em;
+  color: #ffffff;
+}
+.contacto__form .form__container {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
+}
+.contacto__form .form__container__input {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.8em 1em;
+  outline: none;
+  border: none;
+  border: 1px solid #bbb0b0;
+  border-radius: 0.4em;
+}
+.contacto__form .form__container__input--message {
+  resize: none;
+  padding: 1.8em 1em;
+  margin-bottom: 0.5em;
+}
+.contacto__form .form__container__cta {
+  font-family: inherit;
+  background-color: #fd641d;
+  color: #ffffff;
+  border: none;
+  font-weight: 300;
+  padding: 0.7em 0;
+  border-radius: 0.4em;
+  cursor: pointer;
+  font-weight: 600;
+}
+@media (max-width: 450px) {
+  .contacto__form .form {
+    padding: 3.5em 1em;
+    margin: 40px auto;
+  }
+}

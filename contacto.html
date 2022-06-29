@@ -1,0 +1,146 @@
+<!DOCTYPE html >
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="initial-scale=1.0"/>
+    <title>Sitgam Corporation</title><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Raleway:wght@100;300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="/css/tablet.css" media="screen and (min-width: 768px)"/>
+    <link rel="stylesheet" href="/css/desktop.css" media="screen and (min-width: 1024px)"/>
+    <link rel="stylesheet" href="/css/menu.css"/>
+    <link rel="stylesheet" href="/css/form.css"/>
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <link rel="shortcut icon" href="/images/favIcon.png"/>
+    <script src="/js/bootstrap.min.js"> </script>
+  </head>
+  <body>
+    <header>
+      <div class="menu-top"> 
+        <p>Bienvenido a SITGAM Corp.</p><a class="menu-top__link" href="/html/privacidad.html">Aviso de Privacidad</a>
+      </div>
+      <nav class="menu"> 
+        <section class="menu__container"> <img class="menu__logo" src="/images/logoAzul.svg"/>
+          <ul class="menu__links"> 
+            <li class="menu__item"> <a class="menu__link" href="/">Inicio</a></li>
+            <li class="menu__item"> <a class="menu__link" href="/html/empresa.html">Empresa</a></li>
+            <li class="menu__item menu__item-show"><a class="menu__link" href="#">Servicios<img class="menu__arrow" src="/images/Iconos/chevron-down.svg"/></a>
+              <ul class="menu__nesting">
+                <li class="menu__inside"><a class="menu__link menu__link-inside" href="/html/maquinaria.html">Movimiento de Maquinaria</a></li>
+                <li class="menu__inside"><a class="menu__link menu__link-inside" href="/html/electricas.html">Acometidas Eléctricas</a></li>
+                <li class="menu__inside"><a class="menu__link menu__link-inside" href="/html/hidraulicas.html">Acometidas Hidráulicas</a></li>
+                <li class="menu__inside"><a class="menu__link menu__link-inside" href="/html/paileria.html">Pailería</a></li>
+                <li class="menu__inside"><a class="menu__link menu__link-inside" href="/html/pintura.html">Pintura</a></li>
+              </ul>
+            </li>
+            <li class="menu__item"> <a class="menu__link" href="/html/contacto.html">Contacto</a></li>
+          </ul>
+          <div class="menu__hamburger"> <img class="menu__img" src="/images/Iconos/menu.svg" alt="icono de menu"/></div>
+        </section>
+      </nav>
+    </header>
+    <div class="contacto">
+      <div class="section__header">
+        <div class="section__header-content">
+          <picture>
+            <source media="(min-width:1110px)" srcset="/images/dhead-contacto.jpg"/>
+            <source media="(min-width:768px)" srcset="/images/thead-contacto.jpg"/><img class="img-fluid" src="/images/mhead-contacto.jpg" alt="Ingeniero con casco"/>
+          </picture>
+          <p>CONTACTO</p>
+        </div>
+      </div>
+      <div class="contacto__txt"> 
+        <h1>COMUNÍCATE CON NOSOTROS</h1>
+        <p>Para nosotros es muy importante estar en contacto con nuestros clientes.</p>
+      </div>
+      <div class="contacto__box">
+        <div class="contacto__iframe"> 
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.6485511370943!2d-100.40929315344239!3d20.602405249574456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35ac5aacbe849%3A0x869dbfec8550a35d!2sRamiro%20de%20Maeztu%2064%2C%20Los%20Molinos%2C%2076150%20Santiago%20de%20Quer%C3%A9taro%2C%20Qro.!5e0!3m2!1ses-419!2smx!4v1653667534892!5m2!1ses-419!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contacto__form"> 
+          <form class="form" action="https://formspree.io/f/xnqwwojk" method="POST" id="my-form">
+            <action>
+              <div class="form__container"> 
+                <h2 class="form__title">Contáctanos </h2>
+                <input class="form__container__input" type="text" placeholder="Nombre"/>
+                <input class="form__container__input" type="email" placeholder="Email" name="email"/>
+                <textarea class="form__container__input form__container__input--message" placeholder="Mensaje" name="message"></textarea>
+                <input class="form__container__cta" type="submit" value="Enviar"/>
+              </div>
+            </action>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer__header">
+        <div class="footer__header__box">
+          <div class="footer__header__box__phone">
+            <div class="footer__header-icon"><img src="/images/Iconos/phone.svg" alt="icono de teléfono fijo"/></div>
+            <div class="footer__header__phone-num"> 
+              <p>442 219-76-51 <br/>444 257-52-88</p>
+            </div>
+          </div>
+          <div class="footer__header__box__cellphone">
+            <div class="footer__header-icon"> <img src="/images/Iconos/smartphone.svg" alt="ícono de un celular"/></div>
+            <div class="footer__header__cellphone-num"> 
+              <p>442 143-59-39</p>
+            </div>
+          </div>
+          <div class="footer__header__box__email"> 
+            <div class="footer__header-icon"><img src="/images/Iconos/email.svg" alt="ícono de un email"/></div>
+            <div class="footer__header__email-txt"> 
+              <p>contacto@sitgam.mx</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__box">
+        <div class="footer__box__body">
+          <div class="footer__box__body-logo"><img src="/images/logoBlanco.svg" alt="logotipo de SITGAM"/></div>
+          <div class="footer__box__body-links">
+            <h2>Enlaces Directos</h2>
+            <ul> 
+              <li><a href="/">Inicio</a></li>
+              <li><a href="/html/empresa.html">Empresa </a></li>
+              <li><a href="/html/maquinaria.html">Movimiento de maquinaria </a></li>
+              <li><a href="/html/electricas.html">Acometidas Eléctricas </a></li>
+              <li><a href="/html/hidraulicas.html">Acometidas Hidráulicas  </a></li>
+              <li><a href="/html/paileria.html">Pailería </a></li>
+              <li><a href="/html/pintura.html">Pintura </a></li>
+              <li><a href="/html/contacto.html">Contacto </a></li>
+              <li><a href="/html/privacidad.html">Aviso de Privacidad</a></li>
+            </ul>
+          </div>
+          <div class="footer__box__body-address"> <img src="/images/Iconos/address.svg" alt="ícono de ubicación"/>
+            <p>Ramiro de Maeztu 64, Colonia Los Molinos, Querétaro, Qro. MX </p>
+          </div>
+          <div class="footer__box__body-schedule">
+            <h2>HORARIOS DE ATENCIÓN</h2>
+            <div class="footer__box__body-schedule-hours">
+              <p>Lunes a Viernes: </p>
+              <p>9:00am - 6:00 pm</p>
+              <p>Sábado: </p>
+              <p>9:00am - 2:00 pm</p>
+              <p>Domingo: </p>
+              <p>Cerrado</p>
+            </div>
+          </div>
+          <div class="footer__box__body-socialmedia">
+            <div class="footer__box__body-socialmedia__icon">
+              <h2>SÍGUENOS</h2><a href="https://facebook.com"> <img src="/images/Iconos/facebook.svg" alt="Ícono de facebook"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__foot"> 
+          <div class="rights">
+            <p>SITGAM CORPORATION 2022</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/app-dist.js"></script>
+  </body>
+</html>

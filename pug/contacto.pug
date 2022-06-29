@@ -1,0 +1,29 @@
+extend ../components/template.pug
+block content
+    .contacto
+        .section__header
+            .section__header-content
+                picture
+                    source(media="(min-width:1110px)" srcset="/images/dhead-contacto.jpg")
+                    source(media="(min-width:768px)" srcset="/images/thead-contacto.jpg")
+                    img(src="/images/mhead-contacto.jpg", alt="Ingeniero con casco").img-fluid
+                p CONTACTO
+
+        .contacto__txt 
+            h1 COMUNÍCATE CON NOSOTROS
+            p Para nosotros es muy importante estar en contacto con nuestros clientes.
+        .contacto__box
+            .contacto__iframe 
+                iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.6485511370943!2d-100.40929315344239!3d20.602405249574456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35ac5aacbe849%3A0x869dbfec8550a35d!2sRamiro%20de%20Maeztu%2064%2C%20Los%20Molinos%2C%2076150%20Santiago%20de%20Quer%C3%A9taro%2C%20Qro.!5e0!3m2!1ses-419!2smx!4v1653667534892!5m2!1ses-419!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade")
+            .contacto__form 
+                form(action="https://formspree.io/f/xnqwwojk" method="POST").form#my-form
+                  action=""
+  
+                    .form__container 
+                        h2.form__title Contáctanos 
+                        input(type='text' placeholder="Nombre").form__container__input
+                        input(type='email' placeholder="Email" name="email").form__container__input
+                        textarea(placeholder="Mensaje" name="message").form__container__input.form__container__input--message
+                        input(type='submit' value='Enviar').form__container__cta
+                        
+
