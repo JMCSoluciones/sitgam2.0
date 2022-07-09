@@ -41,10 +41,10 @@ body {
 #slide1Content {
   padding: 0 10px;
 }
-#slide1Content p {
+#slide1Content h1 {
   line-height: 39px;
 }
-#slide1Content p strong {
+#slide1Content h1 strong {
   border-bottom: 1px solid #fd641d;
 }
 .slideContent {
@@ -89,6 +89,17 @@ body {
   padding: 20px 0;
 }
 .slideContent__box p strong {
+  font-size: 4.4rem;
+  font-weight: 600;
+}
+.slideContent__box h1 {
+  font-size: 3.6rem;
+  font-weight: 100;
+  text-align: left;
+  line-height: 4.7rem;
+  padding: 20px 0;
+}
+.slideContent__box h1 strong {
   font-size: 4.6rem;
   font-weight: 600;
 }
@@ -263,7 +274,7 @@ body {
 }
 .section__header-content p strong {
   border-top: 1px solid #fd641d;
-  font-size: 4.5rem;
+  font-size: 3.8rem;
 }
 .section__header-content p span {
   font-weight: 800;
@@ -472,6 +483,11 @@ body {
   font-size: 3.5rem;
   font-weight: 600;
 }
+.maquinaria .maquinaria__content-carousel {
+  margin: 10px 10px 40px 10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
 .maquinaria .maquinaria__content-stuberia {
   position: relative;
   color: #ffffff;
@@ -644,6 +660,14 @@ body {
 .hidraulicas {
   color: #4F4B49;
   text-align: center;
+}
+.hidraulicas .header__hidraulicas p {
+  line-height: 3.5rem;
+}
+.hidraulicas .header__hidraulicas p strong {
+  border: none;
+  font-size: 4rem;
+  font-weight: 600;
 }
 .hidraulicas h1 {
   font-size: 4rem;

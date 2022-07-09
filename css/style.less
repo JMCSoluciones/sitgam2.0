@@ -24,10 +24,10 @@
 #slide1Content{
     padding: 0 10px;
 }
-#slide1Content p{
+#slide1Content h1{
     line-height: 39px;
 }
-#slide1Content p strong{
+#slide1Content h1 strong{
     border-bottom: 1px solid @color-secondary;
 }
 
@@ -59,6 +59,19 @@
 
     }
     &__box p strong{
+        // border-bottom: 1px solid @color-secondary;
+        font-size: 4.4rem;
+        font-weight: @font-semibold;
+    }
+    &__box h1{
+        font-size: 3.6rem;
+        font-weight: @font-extralight;
+        text-align: left;
+        line-height: 4.7rem;
+        padding: 20px 0;
+
+    }
+    &__box h1 strong{
         // border-bottom: 1px solid @color-secondary;
         font-size: 4.6rem;
         font-weight: @font-semibold;
@@ -218,7 +231,7 @@
             line-height: 4.9rem;
             strong{
                 border-top: 1px solid @color-secondary;
-                font-size: 4.5rem;
+                font-size: 3.8rem;
             }
             span{
                 font-weight: @font-bold;
@@ -415,6 +428,14 @@
             }
             
         }
+        &-carousel{
+            margin: 10px 10px 40px 10px;
+            border-radius: 20px;
+            overflow: hidden;
+            .carousel-indicators{
+                // display: none;
+            }
+        }
         &-stuberia{
            position: relative;
             color: @color-white;
@@ -576,7 +597,16 @@
 .hidraulicas{
     color: @color-text;
     text-align: center;
-    
+    .header__hidraulicas{
+        p{
+        line-height: 3.5rem;
+            strong{
+                border: none;
+                font-size: 4rem;
+                font-weight: 600;
+            }
+        }
+    }
     h1{
         font-size: 4rem;
         font-weight: @font-light;

@@ -2,7 +2,7 @@ extend ../components/template.pug
 block content
     .hidraulicas
         .section__header
-            .section__header-content
+            .section__header-content.header__hidraulicas
                 picture
                     source(media="(min-width:1110px)" srcset="images/dhidraulicas.jpg")
                     source(media="(min-width:768px)" srcset="images/thead-hidraulicas.jpg")
@@ -29,4 +29,4 @@ block content
             img(src="images/mhidraulicas1.jpg", alt="Técnico revisando bombas").img-fluid
             p Instalamos lo necesario para proporcionar #[strong agua fría, caliente, vapor] en casos específicos a #[strong muebles sanitarios y otros servicios especiales] de una planta industrial.
     .btn-contactenos
-            a(href="contacto.html") Contáctenos  
+            a(href="contacto.html") Contáctenos
