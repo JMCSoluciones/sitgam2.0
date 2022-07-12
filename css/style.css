@@ -1414,15 +1414,40 @@ footer .footer__box__body-socialmedia #logoFooter {
 footer .footer__box__body-socialmedia__icon img {
   width: 60px;
 }
-footer .footer__foot .rights {
+footer .footer__foot {
   background-color: #fd641d;
-  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffffff;
+  height: 81px;
   margin: 0;
 }
+footer .footer__foot p {
+  margin: 0;
+}
+footer .footer__foot .divisor {
+  display: none;
+}
 footer .footer__foot .rights p {
-  color: #ffffff;
   font-size: 1.4rem;
   font-weight: 400;
   text-align: center;
   margin: 0;
+  border-bottom: 1px solid #ffffff;
+}
+footer .footer__foot .link__jmc a {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #ffffff;
 }

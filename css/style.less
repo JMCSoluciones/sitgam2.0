@@ -164,9 +164,6 @@
     }
     &__article{
        position: relative;
-        &__img{
-                      
-        }
         &__img img{
             max-width: 100vw;
             
@@ -1272,20 +1269,37 @@ footer{
                 }
             
         }
-    }
-    
+    }   
     .footer__foot{
-        .rights{
-            background-color: @color-secondary;
-            height: 25px;
+        background-color: @color-secondary;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: @color-white;
+        height: 81px;
+        margin: 0;
+        p{
             margin: 0;
+        }
+        .divisor{
+            display: none;
+        }
+        .rights{
             
             p{
-                color: @color-white;
                 font-size: @font-size-md;
                 font-weight: @font-regular;
                 text-align: center;
                 margin: 0;
+                border-bottom: 1px solid @color-white;
+            }
+        }
+        .link__jmc{
+            a{
+                font-size: @font-size-md;
+                text-decoration: none;
+                color: @color-white;
             }
         }
     }
