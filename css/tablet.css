@@ -657,7 +657,7 @@ footer .footer__box__body-socialmedia {
   -ms-grid-column: 3;
   grid-area: facebook;
 }
-footer .footer__foot {
+footer .footer__box .footer__foot {
   background-color: #fd641d;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -677,22 +677,22 @@ footer .footer__foot {
   margin: 0;
   gap: 10px;
 }
-footer .footer__foot p {
+footer .footer__box .footer__foot p {
   margin: 0;
 }
-footer .footer__foot .divisor {
+footer .footer__box .footer__foot .divisor {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-footer .footer__foot .rights p {
+footer .footer__box .footer__foot .rights p {
   font-size: 1.4rem;
   font-weight: 400;
   text-align: center;
   margin: 0;
   border-bottom: none;
 }
-footer .footer__foot .link__jmc a {
+footer .footer__box .footer__foot .link__jmc a {
   font-size: 1.4rem;
   text-decoration: none;
   color: #ffffff;
